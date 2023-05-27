@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* CALCULATOR STYLING */
+
+.container{
+  border: 2px solid black;
+  width: 50%;
+  margin: auto;
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+}
+
+
+.screen{
+  /* background-color: rgb(200, 200, 200); */
+  border: 2px solid black;
+  height: 10vh;
+  display: flex;
+  justify-content:flex-end;
+  font-size: 3rem;
+  /* margin-bottom: 10px; */
+}
+
+
+.buttons{
+  /* border: 2px solid black; */
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 100px 100px 100px 100px 100px;
+  grid-gap: 10px 20px;
+}
+.zero{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.btn{
+  font-size: 2rem;
+}
